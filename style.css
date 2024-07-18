@@ -1,0 +1,132 @@
+*{
+    
+    
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+body{
+    color: black;
+}
+
+#nav{
+    background-color: aqua;
+    height: 100vh;
+    margin-bottom: 3px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3px;
+    border-radius: 7px;
+    
+}
+h1{
+    color: blue;
+    font-size: 45px;
+}
+.buton{
+    height: 100vh;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+}
+#button{
+    height: 40px;
+    width: 85px;
+    
+    border-radius: 7px;
+    margin-top: 15px;
+     transform:all 0s ease 0s ;
+    cursor: pointer;
+}
+#button:hover{
+    
+    background-color:blue;
+    transform: translatey(-7px);
+    
+}
+.about{
+    color: yellow;
+}
+#about{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#image{
+    height: 500px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+#skills{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#link{
+height: 20px;
+width: 20px;
+}
+#linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#git{
+    height: 30px;
+}
+#github{
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         width: 100px;
+         
+}
+#me{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content:space-evenly;
+   
+}
+footer{
+    background-color: black;
+    color: azure;
+    height: 100px;
+}
+#p{
+padding-top: 10px; 
+}
+#top{
+    background-color:blue;
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: black;
+}
